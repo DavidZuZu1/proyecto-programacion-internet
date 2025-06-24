@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title> Inicio de Sesión | Universidad Central </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+        * {
+            font-family: "Raleway", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+        }
+
+        body {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        .container {
+            background-color: rgba(240, 248, 255, 0.872);
+            box-shadow: 20px, 20px;
+            width: 40vh;
+            height: auto;
+            text-align: center;
+            margin: auto;
+            justify-content: center;
+        }
+
+        .inputs {
+            width: 87%;
+            justify-content: center;
+        }
+
+        .lab {
+            margin-left: 15px;
+        }
+
+        .form-title {
+            text-align: center;
+            justify-content: center;
+        }
+
+        #titulo-caja {
+            margin-top: 10px;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        button {
+            background-color: #04AA6D;
+            border-radius: 5px;
+            color: white;
+            font-size: large;
+            border-color: black;
+            border-width: 1px;
+            transition: all 0.8s ease;
+        }
+
+        button:hover {
+            background-color: #74aa96;
+            border-radius: 5px;
+            color: white;
+            width: 30%;
+
+        }
+
+        #cursos {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #cursos td,
+        #cursos th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #cursos tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #cursos tr:hover {
+            background-color: #ddd;
+        }
+
+        #cursos th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div>
+            <ul>
+                <li>
+                    <a href="index.html"> Ingresar</a>
+                </li>
+                <li>
+                    <a href="profesores.html">Profesores</a>
+                </li>
+                <li>
+                    <a href="estudiantes.html">Estudiantes</a>
+                </li>
+                <li>
+                    <a class="active" href="cursos.html">Cursos <span>(actual)</span> </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <table id="cursos">
+        <tr>
+            <th>Nombre</th>
+            <th>Horario</th>
+            <th>Créditos</th>
+            <th>Código</th>
+        </tr>
+        <tr>
+            <td>Informática Ideológica</td>
+            <td>6:30p.m - 10:00p.m</td>
+            <td>4</td>
+            <td>II-10</td>
+        </tr>
+        <tr>
+            <td>Informática Arquelógica</td>
+            <td>10:00p.m - 2:00a.m</td>
+            <td>3</td>
+            <td>IA-20</td>
+        </tr>
+        <tr>
+            <td>Informática Booleana </td>
+            <td>5:00p.m - 10:00p.m </td>
+            <td>2</td>
+            <td>IB-10</td>
+        </tr>
+        <tr>
+            <td>Contabilidad Booleana </td>
+            <td>10:00a.m - 11:30a.m </td>
+            <td>1</td>
+            <td>CB-20</td>
+        </tr>
+        <tr>
+            <td>Administración de Empresas </td>
+            <td>4:00p.m - 7:30p.m </td>
+            <td>5</td>
+            <td>AE-10</td>
+        </tr>
+        <tr>
+            <td>Topología Tautologíca 5</td>
+            <td>1:00a.m - 3:00a.m</td>
+            <td>3</td>
+            <td>TT-10</td>
+        </tr>
+        <tr>
+            <td>Arquitectura Colombina 2</td>
+            <td>1:00p.m - 9:00p.m</td>
+            <td>4</td>
+            <td>AC-54</td>
+        </tr>
+        <tr>
+            <td>Escritura Histórica 2</td>
+            <td>6:30p.m - 9:30p.m</td>
+            <td>10</td>
+            <td>EH-10</td>
+        </tr>
+        <tr>
+            <td>Acueductos y Alcantarillados 2 </td>
+            <td>7:00a.m - 9:00p.m </td>
+            <td>4</td>
+            <td>AA-11</td>
+        </tr>
+        <tr>
+            <td>Informática para la comunicación</td>
+            <td>8:00p.m - 10:00p.m</td>
+            <td>4</td>
+            <td>IC-04</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
